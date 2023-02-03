@@ -1,3 +1,4 @@
+import 'package:ecobuild/views/onBoarding/on_boarding.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,8 +10,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       title: 'Flutter Demo',
+      theme: ThemeData(primaryColor: const Color(0xFFFB7D47)),
+      home: const OnBoarding(),
     );
   }
 }
