@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.bloopdex.ecobuild">
    <application
-        android:label="ecobuild"
+        android:label="EcoBuild"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

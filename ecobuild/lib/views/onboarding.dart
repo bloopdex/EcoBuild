@@ -1,9 +1,9 @@
+import 'package:ecobuild/views/user_choice.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/svg.dart';
 
-import '../../models/onboarding_content_model.dart';
-import '../home.dart';
+import '../models/onboarding_content_model.dart';
 
 class PageIndexState {
   int currentIndex = 0;
@@ -119,7 +119,7 @@ class OnBoarding extends StatelessWidget {
                         Navigator.pushReplacement(
                           context,
                           MaterialPageRoute(
-                            builder: (_) => const Home(),
+                            builder: (_) => const UserChoiceScreen(),
                           ),
                         );
                       }
