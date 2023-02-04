@@ -1,4 +1,4 @@
-import 'package:ecobuild/views/onBoarding/on_boarding.dart';
+import 'package:ecobuild/views/onBoarding/onboarding.dart';
 import 'package:flutter/material.dart';
 
 void main() {
